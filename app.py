@@ -5,7 +5,7 @@ from PIL import Image
 
 def get_weather_data(city):
     # get your api key in this link https://home.openweathermap.org/api_keys
-    api_key = ""
+    api_key = "YOUR_API_KEY"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid={api_key}"
     response = requests.get(url)
     data = response.json()
