@@ -28,7 +28,6 @@ def main():
 
     # Fetch weather data
     if st.button("Get Weather"):
-        st.write("#### Fetching weather data...")
         try:
             weather_data = get_weather_data(api_key, city)
 
