@@ -13,7 +13,7 @@ git clone https://github.com/jasserabdou/Weather-app.git
 2. Install the required packages using pip:
 
 ```bash
-pip install -r packages.txt
+pip install -r requirments.txt
 ```
 
 3. Obtain an API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys) by signing up for an account.
@@ -42,6 +42,7 @@ streamlit run app.py
 
 - Displays weather information such as temperature, wind speed, clouds, humidity, pressure, timezone, and weather description for the selected city.
 - The app uses the OpenWeatherMap API to fetch weather data in real-time.
+- deployed to this link https://weatherappbyjasser.streamlit.app/
 
 ## Requirements
 
