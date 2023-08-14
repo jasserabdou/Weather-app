@@ -13,7 +13,7 @@ git clone https://github.com/jasserabdou/Weather-app.git
 2. Install the required packages using pip:
 
 ```bash
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 3. Obtain an API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys) by signing up for an account.
